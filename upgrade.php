@@ -26,7 +26,7 @@ require_once 'public/constants.php';
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Sentrifugo</title>
+    <title>Upgrade</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="shortcut icon" href="public/media/images/favicon.ico" />
      <link href="public/media/css/successstyle.css" rel="stylesheet">
@@ -108,7 +108,7 @@ if($exists)
 		 }
 		?>  
 <?php }else{?>
-			<div class="error_mess">Your application is not updated .Please check your internet connection to update or visit sentrifugo.com to update your system.</div>
+			<div class="error_mess">Your application is not updated .Please check your internet connection to update or visit nohrm.com to update your system.</div>
 <?php }?>		
 		       	
         </div>

@@ -28,7 +28,7 @@ $controllerName = $request->getRequest()->getControllerName();
 $actionName = $request->getRequest()->getActionName();
 ?>
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
-<title><?php echo APPLICATION_NAME; ?> - Open Source HRMS</title>
+<title><?php echo APPLICATION_NAME; ?> - Go Beyond HRMS</title>
 <meta http-equiv="Content-Language" content="en-us" />
 
 <meta http-equiv="imagetoolbar" content="no" />
@@ -38,7 +38,7 @@ $actionName = $request->getRequest()->getActionName();
 <meta name="keywords" content="Keywords" />
 
 <meta name="author" content="Enlighten Designs" />
-<link rel="shortcut icon" href="<?php echo $this->baseUrl("public/media/images/favicon.ico"); ?>"/>
+<link rel="shortcut icon" href="<?php //echo $this->baseUrl("public/media/images/favicon.ico"); ?>"/>
 <link rel="stylesheet" type="text/css" href="<?php echo MEDIA_PATH; ?>css/fonts.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo MEDIA_PATH; ?>css/style.css" />
 <link rel="stylesheet" type="text/css"	href="<?php echo MEDIA_PATH; ?>css/select2.css"/>
@@ -189,6 +189,16 @@ var version = parseInt(navigator.sayswho[1]);
    }   
   <?php } ?>
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38668608-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-38668608-2');
+</script>
+
 </head>
 <body>
 	<div id="defaultspinner" class="ajax-loader" style="display:none;" >
@@ -199,7 +209,7 @@ var version = parseInt(navigator.sayswho[1]);
 
 	<div class="logonew_place"></div>
 	
-	<a id="abouttab" href="javascript:void(0);" class="help_icon">Help</a>
+	<!-- <a id="abouttab" href="javascript:void(0);" class="help_icon">Help</a> -->
 		
 	</div>
 <div class="one">

@@ -107,12 +107,11 @@ function sendconfirmationmail($content,$encodedPswd)
 {
 	$htmlcontentdata = '<div style="width:100%;">
 			            <div style="background-color:#eeeeee; width:80%; margin:0 auto; position:relative;">
-				            <div><img src="public/media/images/sentrifugo-email_wizard.png" height="62" width="319" /></div>
 				            <div style="padding:20px 20px 50px 20px;">
 			                    <div style="font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:normal; line-height:30px; margin:0 0 20px 0;">
 			                       <div>
 										<div>Dear Super Admin,</div><br/>
-										<div>Sentrifugo has been successfully installed. Following are the Super Admin login credentials for '.APPLICATION_NAME.':</div><br/>
+										<div>NoHRM has been successfully installed. Following are the Super Admin login credentials for '.APPLICATION_NAME.':</div><br/>
 										<div>Username : empp0001</div>
 										<div>Password : '.$encodedPswd.'</div><br/><br/>
 										<div>'.$content.'</div>
@@ -121,7 +120,6 @@ function sendconfirmationmail($content,$encodedPswd)
 	                    
 			                    <div style="font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:normal; line-height:30px;">
 			                        Regards,<br />
-			                        <b>Sentrifugo</b>
 			                    </div>
 			                </div>    
             			</div>
@@ -211,7 +209,7 @@ if(!empty($_POST))
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Sentrifugo</title>
+    <title>Success</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="shortcut icon" href="public/media/images/favicon.ico" />
      <link href="public/media/css/successstyle.css" rel="stylesheet">

@@ -388,11 +388,11 @@ defined('ASSETS_DELETE')|| define('ASSETS_DELETE','asset');
 defined('ASSETCATEGORIES_DELETE')|| define('ASSETCATEGORIES_DELETE','asset category');
 
 // Installation URLS
-defined('PHPURL')|| define('PHPURL', 'http://www.sentrifugo.com/home/installation-guide#prerequisites');
-defined('PDOURL')|| define('PDOURL', 'http://www.sentrifugo.com/home/installation-guide#prerequisites');
-defined('MODURL')|| define('MODURL', 'http://www.sentrifugo.com/home/installation-guide#prerequisites');
-defined('GDURL')|| define('GDURL', 'http://www.sentrifugo.com/home/installation-guide#prerequisites');
-defined('OPENSSLURL')|| define('OPENSSLURL', 'http://www.sentrifugo.com/home/installation-guide#prerequisites');
+defined('PHPURL')|| define('PHPURL', 'http://www.nohrm.com/home/installation-guide#prerequisites');
+defined('PDOURL')|| define('PDOURL', 'http://www.nohrm.com/home/installation-guide#prerequisites');
+defined('MODURL')|| define('MODURL', 'http://www.nohrm.com/home/installation-guide#prerequisites');
+defined('GDURL')|| define('GDURL', 'http://www.nohrm.com/home/installation-guide#prerequisites');
+defined('OPENSSLURL')|| define('OPENSSLURL', 'http://www.nohrm.com/home/installation-guide#prerequisites');
        
 $domain = "";
 if(isset($_SERVER['HTTP_HOST']))
@@ -420,8 +420,8 @@ else
 // Define Project Name
 
 defined('DOMAIN') || define('DOMAIN', $domainurl.'/');
-defined('PARENTDOMAIN') || define('PARENTDOMAIN', 'http://www.sentrifugo.com');
-defined('WEBSERVICEURL') || define('WEBSERVICEURL', 'http://www.sentrifugo.com/services');
+defined('PARENTDOMAIN') || define('PARENTDOMAIN', 'http://www.nohrm.com');
+defined('WEBSERVICEURL') || define('WEBSERVICEURL', 'http://www.nohrm.com/services');
 
 defined('SERVICEDOMAIN') || define('SERVICEDOMAIN', $domain);
 

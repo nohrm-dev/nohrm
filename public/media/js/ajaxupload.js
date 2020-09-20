@@ -108,8 +108,8 @@ var html_error_http='<img src="' + domain_data + 'public/media/admin-images/erro
 		$m(id_element).innerHTML = html_show_loading;
 	}
 	form.submit();
-	setTimeout("xmlhttpPost('/sentrifugo/admin/thememanager/refreshlogoajax','1' ,'logoimage')",1000);
-	setTimeout("xmlhttpPost('/sentrifugo/admin/thememanager/refreshuploadedlogosajax','1' ,'uploadedImages')",1200);
+	setTimeout("xmlhttpPost('/nohrm/admin/thememanager/refreshlogoajax','1' ,'logoimage')",1000);
+	setTimeout("xmlhttpPost('/nohrm/admin/thememanager/refreshuploadedlogosajax','1' ,'uploadedImages')",1200);
 	
 	
 }

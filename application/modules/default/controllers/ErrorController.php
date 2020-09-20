@@ -40,13 +40,13 @@ class Default_ErrorController extends Zend_Controller_Action
                 // 404 error -- controller or action not found
                 $this->getResponse()->setHttpResponseCode(404);
                 $priority = Zend_Log::NOTICE;
-                $this->view->message = '<div class="page-not-404"><div class="div404"></div><p class="page-text">Page not found</p><p class="sry-text">Sorry, but the page you are looking for has not been found. Try checking URL for errors, then hit the refresh button on your browser</p></div>';
+                $this->view->message = '<div class="page-not-404"><div class="div404"></div><p class="page-text">Demo Mode</p><p class="sry-text">Demo mode has limited acess</p> <a href="http://nohrm.com/request-for-pricing/">Request for Free Trial &amp; Pricing</a></div>';
                 break;
             default:
                 // application error
                 $this->getResponse()->setHttpResponseCode(500);
                 $priority = Zend_Log::CRIT;
-                $this->view->message = '<div class="page-not-404"><div class="div503"></div><p class="page-text">Application error</p><p class="sry-text">Sorry, but the page you are looking for has not been found. Try checking URL for errors, then hit the refresh button on your browser</p></div>';
+                $this->view->message = '<div class="page-not-404"><div class="div503"></div><p class="page-text">Demo Mode</p><p class="sry-text">Demo mode has limited acess</p> <a href="http://nohrm.com/request-for-pricing/">Request for Free Trial &amp; Pricing</a></div>';
                 break;
         }
         

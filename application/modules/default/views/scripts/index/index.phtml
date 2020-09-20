@@ -22,16 +22,16 @@
 
 
 	        <form id='idfrm' action="<?php echo BASE_URL;?>index/loginpopupsave" method="post"> 
-						<div><h1>Log in</h1></div>
+						<div><h1>Demo Log in</h1></div>
 						<div class="fltleft fullwidth">
 							<div class="login-fields" tabindex="0">
 							   <label>User Name</label>
-								<input type="text" class="required" name="username" id="username" maxlength="50" placeholder="Enter your username or email" tabindex="1"/>
+								<input type="text" class="required" name="username" id="username" maxlength="50" placeholder="empp192" value="empp192" tabindex="1"/>
 								    <div class="errorMsg" style="display:none" id="usernameerror"></div>
 							</div>
 							<div class="login-fields">
 							   <label>Password</label>
-							   <input type="password" class="required" name="password" id="password" maxlength="15" onkeydown="return keycodeforIE(event)" placeholder="Enter your password" tabindex="2"/>
+							   <input type="password" class="required" name="password" id="password" maxlength="15" onkeydown="return keycodeforIE(event)" placeholder="demo123" value="demo123" tabindex="2"/>
 							   
 								<?php if (count($this->messages)) {?>
 									<div class="errorMsg" id="usernameerror"> 
@@ -49,7 +49,7 @@
 							<div class="login-button">
 							  <input type="submit" value="Log In" id="loginsubmit" tabindex="-1">
 							</div> 
-   							<div class="forgotpassword"><a id="forgotpwdtext">Forgot Password?</a></div> 
+   							<div class="forgotpassword"><a href="http://nohrm.com/request-for-pricing/">Request for Free Trial & Pricing</a></div>
                          </div>                                             
 					</form>	
 							<div class="forgot-line" id="forgotpassworddiv" style="display:none;">

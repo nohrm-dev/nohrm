@@ -1,4 +1,4 @@
-CHANGELOG Sentrifugo
+CHANGELOG
 ====================
 RELEASE 3.2 
 ------------

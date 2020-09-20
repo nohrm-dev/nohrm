@@ -58,7 +58,7 @@ footer { border-top: 1px solid #cccccc; font-family: "Roboto Regular", Arial, sa
 .padding_none{padding-left:0;padding-right:0}
 .new-form-ui .division .add-coloum{ position:relative;}
 
-.top_header, .container{ min-width:980px; width:100%; position:relative; float:left;}
+.top_header, .container{  width:100%; position:relative; float:left;}
 .left_content{ padding-right:250px; }
 .right_container{ width:240px; background:#ededed; position:absolute; right:0; top:0px;}
 .textarea_re{width: 89%;}

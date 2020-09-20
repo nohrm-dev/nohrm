@@ -1112,8 +1112,7 @@ input[type="reset"] {
     color: #f39c12;  }  .center-cards .cards .am-head {
     font-size: 16px;  }  .cardsgrid {
     margin: 25px;
-    max-width: 1600px;
-    min-width: 980px;  }  .cards {
+    max-width: 1600px;  }  .cards {
     background: #fff;
     box-shadow: -5px 5px 0 #dde2e7;
     padding: 30px;
@@ -1862,8 +1861,7 @@ input[type="reset"] {
     color: #f39c12;  }  .center-cards .cards .am-head {
     font-size: 16px;  }  .cardsgrid {
     margin: 25px;
-    max-width: 1600px;
-    min-width: 980px;  }  .cards {
+    max-width: 1600px;  }  .cards {
     background: #fff;
     box-shadow: -5px 5px 0 #dde2e7;
     padding: 30px;

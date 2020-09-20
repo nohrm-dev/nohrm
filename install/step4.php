@@ -67,7 +67,7 @@ function main_function($tls,$smtpserver,$username,$password,$port,$auth)
 	$msgarray = array(); 		
     try
     {	
-        $mail = mail_send($tls,$smtpserver,$username,$password,$port,$auth);
+        $mail = true;//mail_send($tls,$smtpserver,$username,$password,$port,$auth);
         if($mail === true)
         {  	                                  				   				    
             insert_into_db($tls,$smtpserver,$username,$password,$port,$auth);
@@ -151,7 +151,6 @@ function mail_send($tls,$smtpserver,$username,$password,$port,$auth)
 	$htmlcontentdata = '
 	<div style="width:100%;">
             <div style="background-color:#eeeeee; width:80%; margin:0 auto;  position:relative;">
-            <div><img src="../public/media/images/sentrifugo-email_wizard.png" height="62" width="319" /></div>
             <div style="padding:20px 20px 50px 20px;">
                     <div style="font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:normal; line-height:30px; margin:0 0 20px 0;">
                        <div>
@@ -162,7 +161,6 @@ function mail_send($tls,$smtpserver,$username,$password,$port,$auth)
                     
                     <div style="font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:normal; line-height:30px;">
                         Regards,<br />
-                        <b>Sentrifugo</b>
                     </div>
             </div>
             </div>

@@ -154,7 +154,7 @@ class Default_DashboardController extends Zend_Controller_Action{
 								}
 							}
 							$entityname = ucfirst($GridMxmlarray['objectName']);
-							$genderObj = $this->em->getRepository("Entities\\$entityname")->findBy(array('sentrifugo_status' => 1));
+							$genderObj = "";//$this->em->getRepository("Entities\\$entityname")->findBy(array('sentrifugo_status' => 1));
 							$genderGridJson = array();
 							$genderGridJson['count'] = count($genderObj);
 							$genderGridJson['dashboardname'] = $widget->getTitle();
