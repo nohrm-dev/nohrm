@@ -12,13 +12,13 @@ Installing NOHRM
 
 Table of Contents:
 
-1. What server Sentrifugo works on?
+1. What server NOHRM works on?
 2. Windows installation Guide 
 3. Linux installation Guide 
 4. MAC installation Guide 
 5. Upgrading your application code with patches
 
-	1. What server does Sentrifugo work on?
+	1. What server does NOHRM work on?
 	=======================================
 	NOHRM works only on Apache Server
 
@@ -47,13 +47,13 @@ Table of Contents:
 		
 		Pre-requisites
 		--------------
-		The system requirements for installing Sentrifugo are described below. Make sure your system meets these requirements.
+		The system requirements for installing NOHRM are described below. Make sure your system meets these requirements.
 
 		a. PHP 5.3 or later
 			You can download PHP 5.3 or later by visiting http://windows.php.net/download/
 
 		b. PDO MySQL (for MySQL connection) 
-			To install Sentrifugo on windows, you need to enable the PDO and PDO_MYSQL extensions in your php.ini file. You can add the following
+			To install NOHRM on windows, you need to enable the PDO and PDO_MYSQL extensions in your php.ini file. You can add the following
 			 lines in your php.ini file:
 
 			1. extension=php_pdo.dll
@@ -93,17 +93,17 @@ Table of Contents:
 		- The recommended AMP stack for Linux is XAMPP Linux 1.6 (Download the complete stack and not the upgrades)
 		- The system installer for XAMPP in the XAMPP site will guide you through the installation process
 		- Start the stack manually every time you reboot.
-		- Change the ownership of Sentrifugo files (Ex: /opt/xampp/htdocs/sentrifugo/ $ chown -R nobody.nobody)
+		- Change the ownership of NOHRM files (Ex: /opt/xampp/htdocs/NOHRM/ $ chown -R nobody.nobody)
 
 		Copying files 
 		-------------
-		- Move Sentrifugo zip file into the document root of Apache HTTP server.
+		- Move NOHRM zip file into the document root of Apache HTTP server.
 		- If you used XAMPP for windows, document root is   <XAMPP installed location>\htdocs\
 		- For example: C:\xampp\htdocs\
 
 		Extracting 
 		----------
-		- Extract the Sentrifugo zip file in the document root of Apache HTTP server
+		- Extract the NOHRM zip file in the document root of Apache HTTP server
 
 		Web Installer  
 		-------------
@@ -113,12 +113,12 @@ Table of Contents:
 		
 		Pre-requisites
 		--------------
-		The system requirements for installing Sentrifugo are described below. Make sure your system meets these requirements.
+		The system requirements for installing NOHRM are described below. Make sure your system meets these requirements.
 
 		a. PHP 5.3 or later
 
 		b. PDO MySQL (for MySQL connection) 
-			To install Sentrifugo on Linux, you can compile php with --with-pdo-mysql in your php.ini, and add the following lines:
+			To install NOHRM on Linux, you can compile php with --with-pdo-mysql in your php.ini, and add the following lines:
 
 			1. extension=pdo.so
 			2. extension=pdo_mysql.so
@@ -151,7 +151,7 @@ Table of Contents:
 
 		Copying files 
 		-------------
-		- Move Sentrifugo zip file into the document root of Apache HTTP server.
+		- Move NOHRM zip file into the document root of Apache HTTP server.
 		- If you used XAMPP for windows, document root is   <XAMPP installed location>\htdocs\
 		- For example: C:\xampp\htdocs\
 
@@ -167,13 +167,13 @@ Table of Contents:
 		
 		Pre-requisites
 		--------------
-		The system requirements for installing Sentrifugo are described below. Make sure your system meets these requirements.
+		The system requirements for installing NOHRM are described below. Make sure your system meets these requirements.
 
 		a. PHP 5.3 or later
 			You can download PHP 5.3 or later by visiting http://php.net/downloads.php
 
 		b. PDO MySQL (for MySQL connection) 
-			To install Sentrifugo on MAC, you need to enable the PDO and PDO_MYSQL extensions in your php.ini file. You can add the following lines in 
+			To install NOHRM on MAC, you need to enable the PDO and PDO_MYSQL extensions in your php.ini file. You can add the following lines in 
 			your php.ini file:
 
 			1. extension=php_mysqli.so
